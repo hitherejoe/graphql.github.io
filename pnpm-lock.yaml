@@ -86,8 +86,8 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1(@codemirror/autocomplete@6.18.7)(@codemirror/language@6.11.3)(@codemirror/lint@6.8.5)(@codemirror/state@6.5.2)(@codemirror/view@6.38.2)(@lezer/highlight@1.2.1)(graphql@16.10.0)
       date-fns:
-        specifier: ^2.30.0
-        version: 2.30.0
+        specifier: ^4.0.0
+        version: 4.1.0
       fast-glob:
         specifier: ^3.3.3
         version: 3.3.3
@@ -2999,9 +2999,8 @@ packages:
   dataloader@2.2.3:
     resolution: {integrity: sha512-y2krtASINtPFS1rSDjacrFgn1dcUuoREVabwlOGOe4SdxenREqwjwjElAdwvbGM7kgZz9a3KVicWR7vcz8rnzA==}
 
-  date-fns@2.30.0:
-    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
-    engines: {node: '>=0.11'}
+  date-fns@4.1.0:
+    resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
 
   dayjs@1.11.13:
     resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
@@ -9103,9 +9102,7 @@ snapshots:
 
   dataloader@2.2.3: {}
 
-  date-fns@2.30.0:
-    dependencies:
-      '@babel/runtime': 7.28.3
+  date-fns@4.1.0: {}
 
   dayjs@1.11.13: {}
 
